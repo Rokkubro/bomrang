@@ -318,7 +318,7 @@
 .get_zip_url <- function(site, code = 122) {
   url1 <-
     paste0(
-      "http://www.bom.gov.au/jsp/ncc/cdio/weatherData/av?p_stn_num=",
+      "http://www.bom.gov.au/jsp/ncc/cdio/weatherData/av?p_display_type=dailyDataFile&p_stn_num=",
       site,
       "&p_display_type=availableYears&p_nccObsCode=",
       code
